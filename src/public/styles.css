@@ -1,0 +1,74 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-image: url('./images/familias-felices.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.navbar-nav{
+    margin-left: 20px;
+}
+.formularios{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.formularioAdmin{
+    width: 500px;
+    height: auto;
+    position: absolute;
+    z-index: 1;
+    visibility: hidden;
+    margin-top: 600px;
+    
+}
+.formularioMedico{
+    width: 500px;
+    height: auto;
+    position: absolute;
+    z-index: 1;
+    visibility: hidden;
+    margin-top: 600px;
+    
+}
+.card{
+    padding: 100px;
+    margin: 20px;
+    border: none !important;
+    box-shadow: 0 2px 4px #000;
+    background-color: rgb(255, 255, 255,0.3) !important;
+}
+.card form{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.card input{
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.card button{
+    box-shadow: 0 2px 4px #000;
+}
+.navbar-nav i{
+    font-size: 30px; 
+    color: #0000ff;
+    position: absolute;
+    right: 20px;
+    top: 25%;
+}
+.error{
+    color: red;
+    visibility: hidden;
+}
+.errorUser, .errorPass{
+    visibility: hidden;
+    color: red;
+
+}
